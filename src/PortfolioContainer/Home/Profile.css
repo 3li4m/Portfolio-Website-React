@@ -70,9 +70,9 @@
 }
 
 .profilePictureBackground{
-    margin-top: 120%;
-    height: 200%;
-    width: 200%;
+    margin-top: 100%;
+    height: 100vh;
+    width: 100%;
     background-image: url("../../Assets/Home/Saly-41.png");
     background-repeat: no-repeat;
     background-position: center;

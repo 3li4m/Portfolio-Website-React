@@ -1,13 +1,151 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.profileOptions{
+  margin-top: 25px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@media (max-width:410px) {
+  .profileOptions{
+    display: flex;
+  }
 }
+
+.btn{
+  border: none;
+  outline: none;
+  background: none;
+  border-radius: 50px;
+  width: 160px;
+  cursor: pointer;
+  transition: 0.2s;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+}
+
+.btn:active{
+  transform: translateY(2px);
+}
+
+.primaryBtn{
+  padding: 0;
+  margin-right: 10px;
+  font-size: 15px;
+  color: #000033;
+  border: none;
+  outline: none;
+  background: none;
+  box-shadow: -5px -10px 10px #e7e9ee, 5px 10px 10px #97a7c380;
+}
+
+.primaryBtn:hover{
+  border: none;
+  outline: none;
+  background: none;
+  color: #b21c58;
+  box-shadow: 0px 0px 0px #e7e9ee, 0px 0px 0px #97a7c380;
+}
+
+.innerShadow{
+  box-shadow: inset 0px 0px 0px #e7e9ee, inset 0px 0px 0px #97a7c380;
+  border-radius: 50px;
+  margin: 0;
+  padding: 15px 0px;
+}
+
+.innerShadow:hover{
+  font-size: 15px;
+  box-shadow: inset -5px -10px 10px #e7e9ee, inset 5px 10px 10px #97a7c380;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: 0.2s;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.highlightedBtn{
+  padding: 0;
+  margin-left: 10px;
+  color: #b21c58;
+  font-size: 15px;
+  box-shadow: -5px -10px 10px #e7e9ee, 5px 10px 10px #97a7c380;
+}
+
+.highlightedBtn:hover{
+  color: #000033;
+  box-shadow: 0px 0px 0px #e7e9ee, 0px 0px 0px #97a7c380;
+}
+
+.a{
+    color: white;
+    background-color: rgba(255, 255, 255, .1);
+}
+
+@media only screen and (max-width: 568px){
+  .highlightedBtn{
+    z-index: -900;
+  }
+}
+
+.redBorder{
+  border: 1px solid !important;
+}
+
+.fadeIn{
+  opacity: 0;
+  transform: translateY(80px);
+  transition: all 0.8s ease;
+}
+/* 
+.primaryBtn{
+  margin-top: 100px;
+  border-radius: 40px;
+  padding: 3px;
+  color: black;
+  background-color: #dce2e7;
+  box-shadow: -15px -15px 25px white, 15px 15px 25px #97a7c380;
+  text-decoration: none;
+  font-size: 25px;
+  transition: box-shadow .2s ease;
+}
+
+.primaryBtn:hover{
+  box-shadow: 0px 0px 0px white, 0px 0px 0px #97a7c380;
+}
+
+.btnForground{
+  margin: 0;
+  padding: 0;
+  border-radius: 40px;
+  color: black;
+  background-color: #dce2e7;
+  text-decoration: none;
+  transition: box-shadow .2s ease;
+  box-shadow: inset 0px 0px 0px white, inset 0px 0px 0px #97a7c380
+}
+
+.btnForground:hover{
+  margin: 0;
+  padding: 0;
+  border-radius: 40px;
+  color: black;
+  background-color: #dce2e7;
+  text-decoration: none;
+  transition: box-shadow 2s ease;
+  box-shadow: inset -15px -15px 25px white, inset 15px 15px 25px #97a7c380;
+}
+
+.btnForground p{
+  margin: 0;
+  padding: 10px;
+}
+
+
+
+.highlightedBtn{
+  margin-top: 100px;
+  border-radius: 40px;
+  padding: 3px;
+  color: black;
+  background-color: #dce2e7;
+  box-shadow: -15px -15px 25px white, 15px 15px 25px #97a7c380;
+  text-decoration: none;
+  font-size: 30px;
+  transition: box-shadow .2s ease;
+} */

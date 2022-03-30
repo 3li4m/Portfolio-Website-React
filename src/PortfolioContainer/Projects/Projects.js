@@ -8,7 +8,7 @@ const Projects = () => {
             <div className="container">
                 <div className="heading">
                     <h4></h4>
-                    <h1>My A Projects</h1>
+                    <h1>Projects</h1>
                 </div>
 
                 <div className="content grid">

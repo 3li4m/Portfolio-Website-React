@@ -17,6 +17,7 @@ const Header = () =>{
 
     return(
         <header className="desktopNav header">
+
             <nav className="navContainer ">
                 <div className="logo">
                     <img className="headerLogo" src="./logo-black.png" alt="Website Logo"></img>
@@ -40,14 +41,17 @@ const Header = () =>{
                     </button>
                 </div>
             </nav>
-            <div className={toggleHamburger ? "panelCol" : ""} />
 
+            <div className={toggleHamburger ? "panelCol" : ""} />
             <nav className={toggleHamburger ? "mobileNav isActive " : "mobileNav"}>
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#home">Contact</a></li>
-                    <li><a href="#home">Projects</a></li>
-                    <li><a href="#home">Resume</a></li>
+                <div className="centerObjects">
+                    <li><a href="#home"><span className="hoverAnim">Home</span></a></li>
+                    <li><a href="#home"><span className="hoverAnim">Contact</span></a></li>
+                    <li><a href="#home"><span className="hoverAnim">Projects</span></a></li>
+                    <li><a href="#home"><span className="hoverAnim">Resume</span></a></li>
+                </div>
             </nav>
+
         </header>
     );
 }

@@ -3,6 +3,7 @@ import React from "react";
 const Card = (props) =>{
     return(
         <div className="box btnShadow">
+            {console.log(props.image)}
             <img src={props.image} alt="" />
             <h2>{props.title}</h2>
             <p>{props.desc}</p>

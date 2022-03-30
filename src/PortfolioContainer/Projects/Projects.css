@@ -1,0 +1,94 @@
+.btnShadow{
+}
+
+.row,
+.left,
+.right{
+    width: 50%;
+}
+
+.projects{
+    padding: 7% 7% 0 7%;
+    margin-bottom: 50px;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.projects .box{
+    padding: 50px;
+    transition: 0.5s ease;
+    border-radius: 20px;
+    box-shadow: -5px -10px 10px #e7e9ee, 5px 10px 10px #b2bfd680, inset 0px 0px 0px #e7e9ee, inset 0px 0px 0px #97a7c380;
+}
+
+.projects .box:hover{
+    box-shadow: 0px 0px 0px #e7e9ee, 0px 0px 0px #b2bfd680, inset -10px -10px 15px #e7e9ee, inset 10px 10px 15px #97a7c380;
+}
+
+.projects .box h2{
+    margin: 20px 0 20px 0;
+    color: #b21c58;
+}
+
+
+
+.projects .box p {
+    color:#000033;
+    font-weight: 400;
+    font-size: 20px;
+    word-spacing: 2px;
+    transition: 0.5s;
+}
+
+.projects .box i{
+    font-size: 40px;
+    margin-top: 20px;
+    transition: 0.5s;
+    color:#000033;
+    opacity: 1;
+}
+
+.projects .box:hover i{
+    color: #b21c58;
+    opacity: 1;
+}
+.projects .box:hover p{
+    color: #b21c58;
+}
+.projects .box:hover h2{
+    margin: 20px 0 20px 0;
+    color: #000033;
+}
+
+.heading{
+    margin: 50px 0 50px 0;
+}
+
+.heading h4{
+    color: #b21c58;
+    letter-spacing: 2px;
+    font-weight: 400;
+}
+
+.heading h1{
+    font-size: 40px;
+    color: #000033;
+}
+
+h1{
+    color: #000033;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 35px;
+}
+
+p{
+    color: #000033
+}
+
+.text-center{
+    text-align: center;
+}

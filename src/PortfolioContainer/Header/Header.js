@@ -11,13 +11,13 @@ const Header = () =>{
     // When scroll header at top 
     window.addEventListener("scroll", function(){
         const header = this.document.querySelector(".header")
-        header.classList.toggle("active", window.scrollY > 100)
+        header.classList.toggle("activeHeader", window.scrollY > 100)
     })
     
 
     return(
-        <header className="desktopNav">
-            <nav className="navContainer">
+        <header className="desktopNav header">
+            <nav className="navContainer ">
                 <div className="logo">
                     <img className="headerLogo" src="./logo-black.png" alt="Website Logo"></img>
                 </div>

@@ -1,10 +1,15 @@
 header{
-    height: 10vh;
-    line-height: 10vh;
+    position: fixed;
+    height: 100px;
+    line-height: 10px;
 }
 
 header .container{
     padding-top: 15px;
+}
+
+header .navContainer {
+    margin-top: 10px;
 }
 
 header ul li{
@@ -23,10 +28,24 @@ header ul li a:hover{
     color: #b21c58;
 }
 
+.header.activeHeader {
+    margin: 0;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    width: 100%;
+    background-color:rgb(216, 220, 224);
+    box-shadow: -10px 5px 20px -15px rgba(0, 0, 0, 0.75);
+    padding-top: 5px;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 99;
+    transition: .2s;
+  }
 
 .desktopNav {
-    margin-top: 50px;
-    margin-left: 50px;
+    margin-top: 5px;
     top: 0;
     left: 0;
     right: 0;

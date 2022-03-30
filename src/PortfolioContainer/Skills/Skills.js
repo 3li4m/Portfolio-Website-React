@@ -1,14 +1,14 @@
 import React from "react";
-import "./Projects.css"
-import data from "./Projects.Api.js"
+import data from "./Skills.Api.js"
 import Card from "../../Card.js"
-const Projects = () => {
+
+const Skills = () => {
     return( 
         <section className="projects top" id="projects">
             <div className="container">
                 <div className="heading">
                     <h4></h4>
-                    <h1> Projects</h1>
+                    <h1>Skills</h1>
                 </div>
 
                 <div className="content grid">
@@ -22,4 +22,4 @@ const Projects = () => {
     );
 }
 
-export default Projects;
+export default Skills;

@@ -21,6 +21,14 @@
     box-shadow: -5px -10px 10px #e7e9ee, 5px 10px 10px #b2bfd680, inset 0px 0px 0px #e7e9ee, inset 0px 0px 0px #97a7c380;
 }
 
+.box img{
+    width: 200px;
+    display: block;
+    margin: 0 auto;
+    object-fit: cover;
+    height: 200px;
+}
+
 .projects .box:hover{
     box-shadow: 0px 0px 0px #e7e9ee, 0px 0px 0px #b2bfd680, inset -10px -10px 15px #e7e9ee, inset 10px 10px 15px #97a7c380;
 }
@@ -61,6 +69,7 @@
 }
 
 .heading{
+    text-align: center;
     margin: 50px 0 50px 0;
 }
 

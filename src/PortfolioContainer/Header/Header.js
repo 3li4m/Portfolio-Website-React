@@ -25,10 +25,9 @@ const Header = () =>{
 
                 <div className="navLink">
                     <ul className=" navMenu link fFlex uppercase">
-                        <li><a href="#home">Home</a></li>
-                        <li><a href="#home">Contact</a></li>
+                        <li><a href="#home">A Home</a></li>
                         <li><a href="#home">Projects</a></li>
-                        <li><a href="#home">Resume</a></li>
+                        <li><a href="#home">Contact</a></li>
                     </ul>
                 </div>
                 {/* Mobile */}
@@ -46,9 +45,8 @@ const Header = () =>{
             <nav className={toggleHamburger ? "mobileNav isActive " : "mobileNav"}>
                 <div className="centerObjects">
                     <li><a href="#home"><span className="hoverAnim">Home</span></a></li>
-                    <li><a href="#home"><span className="hoverAnim">Contact</span></a></li>
                     <li><a href="#home"><span className="hoverAnim">Projects</span></a></li>
-                    <li><a href="#home"><span className="hoverAnim">Resume</span></a></li>
+                    <li><a href="#home"><span className="hoverAnim">Contact</span></a></li>
                 </div>
             </nav>
 

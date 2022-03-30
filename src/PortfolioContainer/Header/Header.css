@@ -168,7 +168,7 @@ header ul li a:hover{
     min-height: 100vh;
     width: 100%;
     z-index: 98;
-    background-color: #b21c58;
+    background-color: #221f22;
     transition: 0.5s ease;
     
 }
@@ -190,19 +190,19 @@ header ul li a:hover{
     text-align: center;
     margin: 0 auto;
     margin-top: 10%;
-    box-shadow: -4px -5px 10px #fc237a, 1px 5px 10px #49001d;
-    /* box-shadow: -4px -5px 10px #474345, 1px 5px 10px #000000; */
+    /* box-shadow: -4px -15px 20px #fc237a, -5px 15px 35px #49001d; */
+    box-shadow: -4px -8px 20px #474345, 1px 15px 40px #000000;    
     color: #FAF9F6;
     text-decoration: none;
     font-weight: 700;
     font-size: 1.2rem;
     transition: .5s ease;
-    background-color: #b21c58;
+    background-color: #221f22;
 }
 
 .mobileNav a:hover{
     transform: translateX(15%);
-    background-color: #b21c58;
+    background-color: #221f22;
 }
 
 .mobileNav a span{

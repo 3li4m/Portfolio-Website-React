@@ -50,3 +50,24 @@ button{
   background: none;
 }
 
+/* width */
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: -5px -5px 5px #ffffff inset, 5px 5px 5px #00000080 inset;
+  /* Pipe Style Outline */
+  /* box-shadow: 5px 5px 5px #b21c58 inset, -5px -5px 5px #000033 inset; */
+  border-radius: 50px;
+  background-color: #b4bdc4;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  box-shadow: 2px 2px 5px #000033 inset, -5px -5px 5px #b21c58 inset;
+  border-radius: 50px;
+  background-color: #000033;
+  border: 1px solid #000033;
+}

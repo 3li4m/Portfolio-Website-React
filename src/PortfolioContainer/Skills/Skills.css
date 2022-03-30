@@ -7,63 +7,65 @@
     width: 50%;
 }
 
-.projects{
-    padding: 4% 4% 0 4%;
+.skills{
+    padding: 4% 4% 0 4%;    
     margin-bottom: 50px;
     max-width: 1280px;
     margin: 0 auto;
 }
 
-.projects .box{
-    padding: 50px;
+.skills .box{
+    padding: 40px;
     transition: 0.5s ease;
     border-radius: 20px;
     box-shadow: -5px -10px 10px #e7e9ee, 5px 10px 10px #b2bfd680, inset 0px 0px 0px #e7e9ee, inset 0px 0px 0px #97a7c380;
 }
 
-.box img{
-    width: 200px;
+.skills .box img{
+    width: 100px;
     display: block;
     margin: 0 auto;
-    object-fit: cover;
-    height: 200px;
+    height: 100px;
 }
 
-.projects .box:hover{
+.skills .box:hover{
     box-shadow: 0px 0px 0px #e7e9ee, 0px 0px 0px #b2bfd680, inset -10px -10px 15px #e7e9ee, inset 10px 10px 15px #97a7c380;
 }
 
-.projects .box h2{
+.skills .box h2{
     margin: 20px 0 20px 0;
     color: #b21c58;
+    text-align: center;
 }
 
-
-
-.projects .box p {
+.skills .box p {
     color:#000033;
     font-weight: 400;
-    font-size: 20px;
+    font-size: 15px;
     word-spacing: 2px;
     transition: 0.5s;
+    text-align: center;
 }
 
-.projects .box i{
+.skills .box i{
     font-size: 40px;
     margin-top: 20px;
     transition: 0.5s;
     color:#000033;
     opacity: 1;
+    width: 100%;
+    margin: auto;
+    text-align: center;
 }
 
-.projects .box:hover i{
+.skills .box:hover i{
     color: #b21c58;
     opacity: 1;
 }
-.projects .box:hover p{
+.skills .box:hover p{
     color: #b21c58;
 }
-.projects .box:hover h2{
+.skills .box:hover h2{
     margin: 20px 0 20px 0;
     color: #000033;
 }
@@ -88,9 +90,9 @@ h1{
     color: #000033;
 }
 
-.grid{
+.grid-3{
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(3,1fr);
     grid-gap: 35px;
 }
 
@@ -103,7 +105,7 @@ p{
 }
 
 @media (max-width: 1140px) {
-    .grid{
+    .grid-3{
         grid-template-columns: repeat(2,1fr);
     }
 }
@@ -113,19 +115,19 @@ p{
 }
 
 @media (max-width: 820px){
-    .grid{
+    .grid-3{
         grid-template-columns: repeat(2,1fr);
     }
 }
 
 @media (max-width: 768px) {
-    .grid{
+    .grid-3{
         grid-template-columns: repeat(1,1fr);
     }
 }
 
 @media (max-width: 640px) {
-    .grid{
+    .grid-3{
         grid-template-columns: repeat(1,1fr);
     }
 }

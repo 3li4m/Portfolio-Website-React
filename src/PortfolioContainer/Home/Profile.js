@@ -6,6 +6,7 @@ export default function Profile(){
         <div className='profileContainer'>
             <div className='profileParent'>
                 <div className='profileDetails'>
+                <p className='disclamer'><span className='note'>NOTE:</span> This is a moch website I created</p>
 
                     <div className='profileDetailsName'>
                         <span className='primaryText'>

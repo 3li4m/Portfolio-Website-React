@@ -1,0 +1,79 @@
+.contact{
+    padding: 4% 4% 0 4%;
+    margin-bottom: 50px;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.formGroup{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+label{
+    margin-top: 40px;
+    font-size: 20px;
+    font-weight: 500;
+    color: #b21c58;
+    margin-bottom: 10px;
+}
+
+input::placeholder, textarea::placeholder{
+    color: #00003398;
+}
+
+.submit{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    transition: .5s ease, transform 1s, background-color .8s, box-shadow 2s, color .8s;
+    box-shadow: -5px -10px 10px #e7e9ee, 5px 10px 10px #97a7c380, inset -1px -1px 7px #e7e9ee, inset 1px 1px 7px #97a7c380;
+    border-radius: 20px;
+    color:#b21c58;
+}
+
+.submit:hover{
+        box-shadow: 0px 0px 0px #e7e9ee, 0px 0px 0px #97a7c380, 0px 25px 40px #0000337c;
+        transform: translateY(-10px);
+        background-color: #000033;
+        color: #e7e9ee;
+}
+
+
+input{
+    font-size: 1.5rem;
+    width: 50%;
+}
+textarea{
+    font-size: 1.5rem;
+    width: 50%;
+}
+
+input, textarea{
+    outline: none;
+    border: none;
+    background-color: rgb(213, 219, 224);
+    box-shadow: 0px 0px 0px #e7e9ee, 0px 0px 0px #b2bfd680, inset -10px -10px 15px #e7e9ee, inset 10px 10px 15px #97a7c380;
+    padding: 20px;
+    border-radius: 20px;
+    color: #000033;
+}
+
+.container h1{
+    padding-top: 50px
+}
+
+.contact .container{
+    box-shadow: -5px -10px 10px #e7e9ee, 5px 10px 10px #97a7c380, inset -1px -1px 7px #e7e9ee, inset 1px 1px 7px #97a7c380;
+}
+
+
+@media (max-width: 900px) {
+    
+    input, textarea{
+        width: 80%;
+
+    }
+}

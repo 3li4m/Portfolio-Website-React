@@ -1,25 +1,25 @@
 const data = [
     {
         id: 1,
-        image:"./other02.png" ,
+        image:"./Other02.png" ,
         title:"Title 1" ,
         desc: "Description 1",
     },
     {
         id: 2,
-        image:"./other03.png" ,
+        image:"./Other03.png" ,
         title:"Title 1" ,
         desc: "Description 1",
     },
     {
         id: 3,
-        image:"./other05.png" ,
+        image:"./Other05.png" ,
         title:"Title 1" ,
         desc: "Description 1",
     },
     {
         id: 4,
-        image:"./other12.png" ,
+        image:"./Other12.png" ,
         title:"Title 1" ,
         desc: "Description 1",
     },

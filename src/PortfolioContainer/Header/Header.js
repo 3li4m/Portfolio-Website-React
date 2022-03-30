@@ -25,7 +25,7 @@ const Header = () =>{
 
                 <div className="navLink">
                     <ul className=" navMenu link fFlex uppercase">
-                        <li><a href="#home">A Home</a></li>
+                        <li><a href="#home">Home</a></li>
                         <li><a href="#home">Projects</a></li>
                         <li><a href="#home">Contact</a></li>
                     </ul>

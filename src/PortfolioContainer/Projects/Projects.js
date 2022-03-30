@@ -1,7 +1,7 @@
 import React from "react";
 import "./Projects.css"
 import data from "./Projects.Api.js"
-import Card from "../../Card.js"
+import Card from "./Card.js"
 const Projects = () => {
     return( 
         <section className="projects top" id="projects">

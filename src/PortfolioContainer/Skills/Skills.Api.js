@@ -3,13 +3,13 @@ const data = [
         id: 1,
         image:"fa-brands fa-artstation",
         title:"Digital Art" ,
-        desc: "I Passionate about digital art and create pixel perfect eye catching art.",
+        desc: "I am passionate about digital art and create pixel perfect eye catching art.",
     },
     {
         id: 2,
         image:"fa-brands fa-rocketchat",
         title:"Consulting" ,
-        desc: "I Offer wide range of knowledge across different domains such as application development, automation testing and cyber security.",
+        desc: "I offer wide range of knowledge across different domains such as application development, automation testing and cyber security.",
     },
     {
         id: 3,
@@ -21,7 +21,7 @@ const data = [
         id: 4,
         image:"fa-solid fa-gamepad",
         title:"Game Dev" ,
-        desc: "Experience developing fun catchy games for windows and mobile devices.",
+        desc: "An experience developing fun catchy games for windows and mobile devices.",
     },
     {
         id: 5,

@@ -93,10 +93,10 @@ const Header = () =>{
 
             <nav className={toggleHamburger ? "mobileNav isActive " : "mobileNav"}>
                 <div className="centerObjects">
-                    <li><a href="#home" onClick={hamburgerClick}><span className="hoverAnim">Home</span></a></li>
-                    <li><a href="#projects" onClick={hamburgerClick}><span className="hoverAnim">Projects</span></a></li>
-                    <li><a href="#skills" onClick={hamburgerClick}><span className="hoverAnim">skills</span></a></li>
-                    <li><a href="#contact" onClick={hamburgerClick}><span className="hoverAnim">Contact</span></a></li>
+                    <li><a href="#home" onClick={hamburgerClick}><span className="navLinkBtn home hoverAnim">Home</span></a></li>
+                    <li><a href="#projects" onClick={hamburgerClick}><span className="navLinkBtn projects hoverAnim">Projects</span></a></li>
+                    <li><a href="#skills" onClick={hamburgerClick}><span className="navLinkBtn skills hoverAnim">skills</span></a></li>
+                    <li><a href="#contact" onClick={hamburgerClick}><span className="navLinkBtn contact hoverAnim">Contact</span></a></li>
                 </div>
             </nav>
 

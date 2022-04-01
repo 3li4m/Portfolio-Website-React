@@ -3,7 +3,7 @@ import Typical from 'react-typical'
 import './Profile.css'
 export default function Profile(){
     return(
-        <div className='profileContainer'>
+        <section className='sectionID profileContainer' id="home">
             <div className='profileParent'>
                 <div className='profileDetails'>
                 <p className='disclamer'><span className='note'>NOTE:</span> This is a moch website I created</p>
@@ -38,9 +38,11 @@ export default function Profile(){
                     <div className='profileOptions'>
                         
                         <button className='btn primaryBtn'>
-                            <div className='innerShadow'>
-                                Contact
-                            </div>
+                            <a href='#contact'>
+                                <div  className='innerShadow'>
+                                    Contact
+                                </div>
+                            </a>
                         </button>
                         
                         {/* UPDATE RESUME REMOVE NUMBER AND PUT (AT) INSTEAD OF @ */}
@@ -72,6 +74,6 @@ export default function Profile(){
                 </div>
                 
             </div>
-        </div>
+        </section>
     );
 }

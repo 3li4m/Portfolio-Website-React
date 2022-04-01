@@ -3,8 +3,8 @@ import "./Contact.css"
 const Contact = () =>
 {
     return(
-        <section className="contact top" id="contact">            
-        <div className="container">
+        <section className="sectionID contact top" id="contact">            
+            <div className="container">
                 <div className="heading">
                     <h4></h4>
                     <h1>Contact Me</h1>

@@ -215,3 +215,11 @@
     font-size: 14px;
     font-weight: 500;
 }
+
+.primaryBtn a{
+    color: #000033 !important;
+}
+
+.primaryBtn:hover a{
+    color: #b21c58 !important;
+}

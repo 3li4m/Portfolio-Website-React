@@ -4,7 +4,7 @@ import data from "./Skills.Api.js"
 import Card from "./Card.js"
 const Skills = () => {
     return( 
-        <section className="skills top" id="mySkills">
+        <section className="sectionID skills top" id="skills">
             <div className="container">
                 <div className="heading">
                     <h4></h4>

@@ -8,8 +8,9 @@ const Header = () =>{
         toggleHamburger ? setHamburgerToggle(false) : setHamburgerToggle (true);
     }
 
-    // const [toggleActive, setActive] = useState(false);
 
+    // Click NavBar Highlight/Active
+    // const [toggleActive, setActive] = useState(false);
     // const navClick = () =>{
     //     const btnElements = document.getElementsByClassName("navLinkBtn");
 
@@ -22,15 +23,13 @@ const Header = () =>{
     //     }
     // }
 
-    const navScroll = () => {
-
-    }
-
     // When scroll header at top 
     window.addEventListener("scroll", function(){
         const header = this.document.querySelector(".header")
         header.classList.toggle("activeHeader", window.scrollY > 100)
 
+
+        // Scroll NavBar Highlight/Active ----> 
         // const home = this.document.querySelector(".home")
         // home.classList.toggle("active", window.scrollY < 550)
 
@@ -61,6 +60,7 @@ const Header = () =>{
                 li.classList.add("active");
             }
         })
+        // <---- 
     })
 
 
